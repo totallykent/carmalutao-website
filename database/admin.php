@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Admin Portal</h1>
-    <form action="" method="post"><hr>
+    <form action="adminhandler.inc.php" method="post"><hr>
         <h3>Add an Item</h3>
         <table>
             <tr>
@@ -20,6 +20,10 @@
             <tr>
                 <td><p><b>Price:</b></p></td>
                 <td><input type="number" name="price" placeholder="Enter your price"></td>
+            </tr>
+            <tr>
+                <td><p><b>Image:</b></p></td>
+                <td><input type="text" name="image" placeholder="Enter Image Link"></td>
             </tr>
         </table>
         <input type="submit" value="Submit" name="submit">

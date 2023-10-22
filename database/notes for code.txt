@@ -3,4 +3,4 @@ php -S localhost:8888 -t {Folder Location}
 
 SQL:
 [Adding a new row with data]
-INSERT INTO shop_items (brand, model, price) VALUES ('Triumph', 'Thruxton RS 1200', 16995.00);
+INSERT INTO items (brand, model, price) VALUES ('Triumph', 'Thruxton RS 1200', 16995.00);
