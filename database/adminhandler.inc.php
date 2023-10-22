@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $image = $_POST['image'];
     
     if (empty($brand) || empty($model) || empty($price) || empty($image)) {
-        header("Location: admin.php?error=Please fill in all fields");
+        header("Location: admin.html?error=Please fill in all fields");
         die();
     }
 
