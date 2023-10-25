@@ -27,12 +27,20 @@
             </tr>
         </table>
         <input type="submit" value="Submit" name="submit">
-        <hr>
-        <h3>Remove an Item</h3>
-        <select name="removeItem" id="removeItem">
-            <option value="" selected disabled>Select Item to Remove</option>
-            <option value="test">test</option>
-        </select>
+    </form>
+    <hr>
+    <h3>Remove an Item</h3>
+    <form action="adminItemDelete.php" method="post">
+        <table>
+            <tr>
+                <td><p><b>Brand</b></p></td>
+                <td><input type="text" name="brand" placeholder="Enter brand name"></td>
+            </tr>
+            <tr>
+                <td><p><b>Model:</b></p></td>
+                <td><input type="text" name="model" placeholder="Enter the model name"></td>
+            </tr>
+            </table>
         <input type="submit" value="Remove" name="removeButton">
     </form>
 </body>
