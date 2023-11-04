@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pdo = null;
         $statement = null;
 
-        header("Location: ../database/admin.html");
+        header("Location: ../admin.html");
 
         die();
     } catch (PDOException $e) {
