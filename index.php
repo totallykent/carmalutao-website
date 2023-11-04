@@ -46,5 +46,6 @@
             ?>
         </ul>
     </div>
+    <center><a href="admin.html">Admin Panel</a></center>
 </body>
 </html>

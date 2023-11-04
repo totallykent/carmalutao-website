@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styleAdmin.css">
+</head>
+<body>
+    <center><ul class="card">
+        <li>
+            <h1>Admin Panel</h1>
+        </li>
+        <br>
+    	<li>
+    		<div class="box">
+    			<h3>Add Item</h3>
+                <form action="../php/adminhandler.inc.php" method="post">
+                    <input type="text" name="brand" placeholder="Brand">
+                    <input type="text" name="model" placeholder="Model">
+                    <input type="number" name="price" placeholder="Price">
+                    <input type="text" name="image" placeholder="Image Link">
+                    <br><center><input type="submit" value="Add" name="submit"></center>
+                </form>
+    		</div>
+    	</li>
+        <li>
+            <div class="box">
+                <h3>Remove Item</h3>
+                <form action="../php/adminItemDelete.php" method="post">
+                    <input type="text" name="brand" placeholder="Brand">
+                    <input type="text" name="model" placeholder="Model">
+                    <br><center><input type="submit" value="Remove" name="removeButton"></center>
+                </form>
+            </div>
+        </li>
+    </ul></center>
+</body>
+</html>

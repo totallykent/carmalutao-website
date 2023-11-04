@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "TT Slabs";
+    src: url('fonts/TTSlabs-Regular.ttf');
+    font-style: normal;
+}
+
+html {
+    font-family: "TT Slabs";
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(22,28,42), rgba(31,7,57));
+    background-attachment: fixed;
+}
+
+h1 {
+    text-shadow: 0 0 20px rgba(210, 110, 118, 10);
+}
+
+.card li{
+    display: inline-block;
+    margin-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    flex: 0 1 auto;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.box input {
+    color: whitesmoke;
+    background: transparent;
+    border: 2px solid rgba(166, 222, 226, 0.5);
+    box-shadow: 0 0 15px rgba(15, 98, 192, 10);
+    outline: none;
+    padding: 5px 10px;
+}
+
+
+.box input::placeholder {
+    font-family: "TT Slabs";
+}
+
+.box {
+    outline: 2px solid purple;
+    box-shadow: 0 0 15px purple;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
